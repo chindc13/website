@@ -52,6 +52,14 @@
   --contrast-color: #ffffff;
 }
 
+.dark-background2 {
+  --background-color: #09172c;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #151f2b;
+  --contrast-color: #ffffff;
+}
+
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
@@ -64,6 +72,11 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+}
+
+.text-justify{
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 a {
